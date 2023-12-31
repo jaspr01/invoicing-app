@@ -1,7 +1,7 @@
-import {Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle} from "@/components/ui/card.tsx"
-import {Label} from "@/components/ui/label.tsx"
-import {Input} from "@/components/ui/input.tsx"
-import {Button} from "@/components/ui/button.tsx"
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card.tsx'
+import { Label } from '@/components/ui/label.tsx'
+import { Input } from '@/components/ui/input.tsx'
+import { Button } from '@/components/ui/button.tsx'
 
 const Login = () => {
   return (
@@ -13,11 +13,11 @@ const Login = () => {
       <CardContent className="space-y-4">
         <div className="space-y-2">
           <Label htmlFor="email">Email</Label>
-          <Input id="email" placeholder="m@example.com" required type="email"/>
+          <Input id="email" placeholder="m@example.com" required type="email" />
         </div>
         <div className="space-y-2">
           <Label htmlFor="password">Password</Label>
-          <Input id="password" required type="password"/>
+          <Input id="password" required type="password" />
         </div>
         <div className="mt-2">
           <div className="text-center text-red-500 text-sm">Invalid email or password. Please try again.</div>
