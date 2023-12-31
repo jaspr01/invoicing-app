@@ -1,3 +1,6 @@
 export enum Routes {
-  LOGIN = '/login'
+  LOGIN = '/login',
+
+  // INVOICES
+  INVOICES = '/invoices'
 }
